@@ -41,7 +41,9 @@ import java.util.List;
 import java.util.Map;
 import org.json.JSONException;
 
-@CapacitorPlugin(permissions = { @Permission(strings = { Manifest.permission.CAMERA }, alias = BarcodeScanner.PERMISSION_ALIAS_CAMERA) })
+@CapacitorPlugin(
+    permissions = { @Permission(strings = { Manifest.permission.CAMERA }, alias = BarcodeScannerCommunity.PERMISSION_ALIAS_CAMERA) }
+)
 public class BarcodeScannerCommunity extends Plugin implements BarcodeCallback {
 
     public static final String PERMISSION_ALIAS_CAMERA = "camera";

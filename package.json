@@ -1,6 +1,6 @@
 {
   "name": "@ivakm/barcode-scanner-community",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A fast and efficient (QR) barcode scanner for Capacitor",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
